@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/CSS-Grid-and-React/static/css/main.46b0201e.chunk.css",
+    "main.js": "/CSS-Grid-and-React/static/js/main.a1322c10.chunk.js",
+    "main.js.map": "/CSS-Grid-and-React/static/js/main.a1322c10.chunk.js.map",
+    "runtime-main.js": "/CSS-Grid-and-React/static/js/runtime-main.87fb3660.js",
+    "runtime-main.js.map": "/CSS-Grid-and-React/static/js/runtime-main.87fb3660.js.map",
+    "static/js/2.72df24f4.chunk.js": "/CSS-Grid-and-React/static/js/2.72df24f4.chunk.js",
+    "static/js/2.72df24f4.chunk.js.map": "/CSS-Grid-and-React/static/js/2.72df24f4.chunk.js.map",
+    "index.html": "/CSS-Grid-and-React/index.html",
+    "precache-manifest.a7f564dd43400be0f5a53daf980e28ca.js": "/CSS-Grid-and-React/precache-manifest.a7f564dd43400be0f5a53daf980e28ca.js",
+    "service-worker.js": "/CSS-Grid-and-React/service-worker.js",
+    "static/css/main.46b0201e.chunk.css.map": "/CSS-Grid-and-React/static/css/main.46b0201e.chunk.css.map",
+    "static/js/2.72df24f4.chunk.js.LICENSE.txt": "/CSS-Grid-and-React/static/js/2.72df24f4.chunk.js.LICENSE.txt",
+    "static/media/image1.jpg": "/CSS-Grid-and-React/static/media/image1.252acbc5.jpg",
+    "static/media/image10.jpg": "/CSS-Grid-and-React/static/media/image10.d065d5ff.jpg",
+    "static/media/image11.jpg": "/CSS-Grid-and-React/static/media/image11.bdce1989.jpg",
+    "static/media/image12.jpg": "/CSS-Grid-and-React/static/media/image12.a548d083.jpg",
+    "static/media/image2.jpg": "/CSS-Grid-and-React/static/media/image2.e951768f.jpg",
+    "static/media/image3.jpg": "/CSS-Grid-and-React/static/media/image3.51704052.jpg",
+    "static/media/image4.jpg": "/CSS-Grid-and-React/static/media/image4.ddfde604.jpg",
+    "static/media/image5.jpg": "/CSS-Grid-and-React/static/media/image5.8389249b.jpg",
+    "static/media/image6.jpg": "/CSS-Grid-and-React/static/media/image6.f612749f.jpg",
+    "static/media/image7.jpg": "/CSS-Grid-and-React/static/media/image7.2074650f.jpg",
+    "static/media/image8.jpg": "/CSS-Grid-and-React/static/media/image8.4a8555a1.jpg",
+    "static/media/image9.jpg": "/CSS-Grid-and-React/static/media/image9.c5280cbd.jpg",
+    "static/media/logo.svg": "/CSS-Grid-and-React/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87fb3660.js",
+    "static/js/2.72df24f4.chunk.js",
+    "static/css/main.46b0201e.chunk.css",
+    "static/js/main.a1322c10.chunk.js"
+  ]
+}
