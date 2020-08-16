@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15f039c88eadb9c2a8e6a9c2f29bf20e",
+    "revision": "7d14a66b39dcd3004572930c3728b8d0",
     "url": "/CSS-Grid-and-React/index.html"
   },
   {
-    "revision": "a6a2f5b4419ef367a0a7",
-    "url": "/CSS-Grid-and-React/static/css/main.46b0201e.chunk.css"
+    "revision": "a286816fed1e92d93f99",
+    "url": "/CSS-Grid-and-React/static/css/main.7776dc52.chunk.css"
   },
   {
     "revision": "3a75f04eb1ec6332b962",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CSS-Grid-and-React/static/js/2.72df24f4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6a2f5b4419ef367a0a7",
-    "url": "/CSS-Grid-and-React/static/js/main.a1322c10.chunk.js"
+    "revision": "a286816fed1e92d93f99",
+    "url": "/CSS-Grid-and-React/static/js/main.8cbefc5a.chunk.js"
   },
   {
     "revision": "e7f16ae012cd709ed9ae",
