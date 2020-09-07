@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import styled from '@emotion/styled';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import PropTypes from 'prop-types';
@@ -32,11 +32,6 @@ const TextoCotizacion = styled.p`
 
 const Resultado = ({ cotizacion }) => {
 
-    const inputRef = useRef();
-
-    function focus() {
-        inputRef.current.focus();
-    }
 
     return (
         (cotizacion === 0) ? <Mensaje>Elige Marca, Año y Tipo de Seguro</Mensaje>
@@ -45,7 +40,6 @@ const Resultado = ({ cotizacion }) => {
                     <TransitionGroup
                         component="span"
                         className="resultado"
-                        ref={inputRef}
                     >
                         <CSSTransition
                             className="resultado"
