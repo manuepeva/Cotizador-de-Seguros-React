@@ -1,25 +1,83 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import styled from '@emotion/styled';
+
+import Header from './Components/Header/Header';
+import Formulario from './Components/Formulario/Formulario';
+import Resultado from './Components/Resultado/Resultado';
+
+import Resumen from './Components/Resumen/Resumen';
+
+import Spinner from './Components/Spinner/Spinner';
+
+
+
+const Contenedor = styled.div`
+    max-width: 600px;
+    margin: 0 auto;
+`;
+
+const ContenedorFormulario = styled.div`
+    background-color: #ffffff;
+    padding: 3rem;
+`;
+
 
 function App() {
+
+
+  const [resumen, guardarResumen] = useState({
+    cotizacion: 0,
+    datos: {
+      marca: '',
+      year: '',
+      plan: ''
+    }
+  });
+
+
+  const [cargando, guardarCargando] = useState(false);
+
+
+
+  // Extraer datos
+
+  const { datos, cotizacion } = resumen;
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Contenedor>
+      <Header
+        titulo="Cotizador de Seguros - Auto"
+      />
+      <ContenedorFormulario>
+
+        <Formulario
+          guardarResumen={guardarResumen}
+          guardarCargando={guardarCargando}
+        />
+
+        {cargando ? <Spinner /> : null}
+
+
+
+
+
+        {!cargando ?
+          <div>
+            <Resultado
+              cotizacion={cotizacion}
+            /><Resumen
+              datos={datos}
+            />
+          </div> :
+          null
+        }
+
+
+      </ContenedorFormulario>
+    </Contenedor>
   );
 }
 
